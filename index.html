@@ -1,28 +1,38 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>职位补充说明模板</title>
+<title>Position Supplement Sheet · Template</title>
 <style>
   *{box-sizing:border-box}
   body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
-       font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+       font-family:-apple-system,"Segoe UI",Calibri,"Microsoft YaHei",sans-serif;
        background:linear-gradient(135deg,#eef3fb,#e6ecf7);color:#1f2937;padding:24px}
-  .card{background:#fff;border-radius:16px;padding:40px 44px;max-width:560px;width:100%;
+  .card{background:#fff;border-radius:16px;padding:40px 44px;max-width:600px;width:100%;
         box-shadow:0 18px 50px rgba(31,41,55,.14);text-align:center}
-  h1{font-size:24px;margin:0 0 10px}
-  p{margin:0 0 26px;color:#6b7280;font-size:14px;line-height:1.7}
-  a.dl{display:inline-flex;align-items:center;gap:10px;text-decoration:none;background:#2563eb;color:#fff;
-       font-size:16px;font-weight:600;padding:14px 30px;border-radius:10px}
+  h1{font-size:24px;margin:0 0 6px}
+  .sub{color:#6b7280;font-size:13px;margin:0 0 28px}
+  a.dl{display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;
+       background:#2563eb;color:#fff;font-size:16px;font-weight:600;padding:15px 30px;
+       border-radius:10px;margin-bottom:12px;transition:background .15s}
   a.dl:hover{background:#1d4ed8}
+  a.dl.alt{background:#475569}
+  a.dl.alt:hover{background:#334155}
+  .meta{margin-top:22px;font-size:12px;color:#9ca3af;line-height:1.8}
 </style>
 </head>
 <body>
   <div class="card">
-    <h1>职位补充说明（模板）</h1>
-    <p>点击下方按钮下载 Word 模板。</p>
-    <a class="dl" href="job-supplement-template.docx">⬇ 下载职位补充说明模板.docx</a>
+    <h1>Position Supplement Sheet</h1>
+    <p class="sub">职位补充说明 · Word Template</p>
+    <a class="dl" href="job-supplement-template.docx">⬇ 下载中文版模板 (Word)</a>
+    <a class="dl alt" href="job-supplement-template-en.docx">⬇ Download English Template (Word)</a>
+    <div class="meta">
+      A4 · 2 pages · Editable form fields<br>
+      Chinese: job-supplement-template.docx<br>
+      English: job-supplement-template-en.docx
+    </div>
   </div>
 </body>
 </html>
